@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding-top: 120px; 
+}
+
+.my {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#home,
+#about, #service{
+    scroll-margin-top: 150px;
+}
+.logo {
+    background-color: black;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.doss li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.doss {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.doss li a.active {
+    background-color: blue;
+}
+
+.doss li a:hover {
+    background-color: blue;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px 50px;
+}
+
+.card {
+    background: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 250px;
+    color: white;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 250px;
+    padding: 8px;
+}
+
+button {
+    margin-left: 125px;
+    padding: 8px 20px;
+}
+
+.form {
+
+    width: 700px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 20x;
+    margin-top: 100px;
+    margin-left: 400px;
+    padding-left: 150px;
+     text-align: center;
+      border-radius: 10px;
+      padding: 20px;
+}
+
+.formchild {
+    padding: 20px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.home img {
+    width: 45%;
+    
+    margin: 0;
+    border: 6px solid blue;
+}
+
+.home .content {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+img {
+    width: px;
+    height: 700px;
+    border: 6px solid blue;
+    display: block;
+    margin: auto;
+    margin-left: 50%;
+}
+
+.image2 {
+    margin-right: 100%;
+      border: 2px solid black;
+    width: 45%;
+    border-radius: 10px;
+    padding: 15px;
+
+
+}
+
+.content{
+    border: 2px solid black;
+    width: 45%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.hometitle{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.hole{
+    text-align: center;
+}
